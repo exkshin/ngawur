@@ -1,0 +1,33 @@
+export interface LoginSupplierModel {
+  idperusahaan: string | null;
+  idsupplier: string | null;
+  kodesupplier: string | null;
+  badanusaha: string | null;
+  namasupplier: string | null;
+  alamat: string | null;
+  kota: string | null;
+  propinsi: string | null;
+  negara: string | null;
+  kodepos: string | null;
+  telp: string | null;
+  fax: string | null;
+  email: string | null;
+  password: string | null;
+  website: string | null;
+  contactperson: string | null;
+  telpcp: string | null;
+  emailcp: string | null;
+  npwp: string | null;
+  idsyaratbayar: string | null;
+  namabank: string | null;
+  norekening: string | null;
+  namabeneficiary: string | null;
+  swiftcode: string | null;
+  alamatbank: string | null;
+  nomorrouting: string | null;
+  negarabank: string | null;
+  catatan: string | null;
+  userentry: string | null;
+  tglentry: string | null;
+  status: string | null;
+}

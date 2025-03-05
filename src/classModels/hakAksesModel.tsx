@@ -1,0 +1,42 @@
+export interface HakAksesDetailModel {  
+  idperusahaan?: string | null;  
+  iduser?: string | null;  
+  kodemenu?: string | null;  
+  hakakses?: string | null;  
+  tambah?: string | null;  
+  ubah?: string | null;  
+  hapus?: string | null;  
+  cetak?: string | null;  
+  batalcetak?: string | null;  
+  inputharga?: string | null;  
+  lihatharga?: string | null;  
+  lihathargabeli?: string | null;  
+  lihatsemuatrans?: string | null;  
+  inputbiaya?: string | null;  
+  inputmaterial?: string | null;  
+  modul?: string | null;  
+  kodeinduk?: string | null;  
+  urutan?: string | null;  
+  tipe?: string | null;  
+  namamenu?: string | null;  
+  namamodul?: string | null;  
+  namaclass?: string | null;  
+  namaview?: string | null;  
+  jenis?: string | null;  
+  icon?: string | null;  
+  paket?: string | null;  
+  pemanggil?: string | null;  
+  status?: string | null;  
+}  
+
+export interface HakAksesLoginModel {  
+  barang?: HakAksesDetailModel | null;  
+  so?: HakAksesDetailModel | null;  
+  jual?: HakAksesDetailModel | null;  
+  beli?: HakAksesDetailModel | null;  
+  kas?: HakAksesDetailModel | null;  
+  pelunasanhutang?: HakAksesDetailModel | null;  
+  closing?: HakAksesDetailModel | null;  
+  laporanhutang?: HakAksesDetailModel | null;  
+  laporanpenjualan?: HakAksesDetailModel | null;  
+}  

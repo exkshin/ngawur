@@ -1,0 +1,50 @@
+const ListColor={
+  main:{
+    Pressed:"#359F19",
+    Hover:"#42CC1F",
+    Main:"#A9E06D",
+    Border:"#78DF5D",
+    Surface:"#ECFFEC",
+  },
+  neutral: {
+    100: "#000000",
+    90: "#323F4B",
+    80: "#475A6B",
+    70: "#7B8794",
+    60: "#9AA5B1",
+    50: "#CBD2D9",
+    40: "#E4E7EB",
+    30: "#F2F3F5",
+    20: "#F8F9FA",
+    10: "#FFFFFF",
+  },
+  danger: {
+    Hover: "#B91919",
+    Main: "#D21C1C",
+    Border: "#F4D2D2",
+    Surface: "#FCF3F2",
+    Pressed: "#9D1515",
+  },
+  success: {
+    Main: "#28A138",
+    Hover: "#238B31",
+    Pressed: "#1D7228",
+    Border: "#C3DFC7",
+    Surface: "#F0F7F5",
+  },
+  info: {
+    Main: "#0172CB",
+    Hover: "#0161AC",
+    Pressed: "#01508E",
+    Border: "#D0E9FB",
+    Surface: "#F2F8FC",
+  },
+  warning: {
+    Main: "#E98305",
+    Hover: "#DC7C05",
+    Pressed: "#CD7304",
+    Border: "#FAE2C7",
+    Surface: "#FCF9F2",
+  },
+};
+export default ListColor;

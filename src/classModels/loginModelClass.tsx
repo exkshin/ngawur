@@ -1,0 +1,46 @@
+export interface LoginModelClass {
+  aksespelanggan: HakAksesModel,
+  aksespenjualan: HakAksesModel,
+  aksesantrian: HakAksesModel,
+  aksestutuptransaksiharian: HakAksesModel,
+  aksesbataltutuptransaksiharian: HakAksesModel,
+  akseslaporanpenjualan: HakAksesModel,
+  aksesbatalpembayaran: HakAksesModel,
+  aksespesananpenjualanso: HakAksesModel,
+  idkaryawan: string | null,
+  syaratbayar: SyaratBayarModel,
+  cekminus: string | null,
+  ppnpersen: string | null,
+  pakaippn: string | null,
+  cekfoto: string | null,
+  cekkoordinat: string | null,
+  toleransijarak: string | null,
+  idcurrency: string | null,
+  kodecurrency: string | null,
+  namacurrency: string | null,
+  nilaikurs: string | null,
+  idsupervisor: string | null,
+  idusersupervisor: string | null,
+  namasupervisor: string | null,
+  telpsupervisor: string | null,
+  iduser: string | null,
+  namauser: string | null,
+  idperusahaan: string | null,
+  namaperusahaan: string | null,
+}
+
+export interface HakAksesModel {
+  kodemenu: string | null,
+  namamenu: string | null,
+  hakakses: string | null,
+  tambah: string | null,
+  ubah: string | null,
+  lihatharga: string | null,
+  inputharga: string | null,
+}
+
+export interface SyaratBayarModel {
+  idsyaratbayar: string | null,
+  namasyaratbayar: string | null,
+  selisih: string | null,
+}
